@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+.customnav {
+    background-color: gray; 
+    font-family: 'Merriweather', serif;
+    font-size: 20px;
+    margin-bottom: 50px;
+    padding: 20px;
+    text-align: center;
+}
+    
+a:link, a:visited {
+    text-decoration: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: black;
+}
+
+a:hover {
+    background-color: dimgrey;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    font-size: 50px;
+    text-shadow: 5px 5px #ff33d3;
+    color: white;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background-image: url("img/vegas.jpg");
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    font-size: 20px;
+    text-shadow: 2px 2px #fab3ff;
+    color: black;
+}
+
+#map {
+  height: 550px;
+  border-radius: 10px;
+}
+
+.main {
+  background-color: rgba(34, 55, 71, 0.8);
+  border-radius: 25px;
+  margin-left: 10%;
+  margin-right: 10%;
+  min-height: 350px;
+  padding: 25px;
+  color: #add4ff;
+  font-family: 'Merriweather', serif;
+  font-size: 16px;
+}
+
+
+p {
+    font-family: 'Merriweather', serif;
+    font-size: 21px;
+    padding-left: 5%;
+    padding-right: 5%;
+    color: black;
+}
+
+body {
+    background-color: lightgrey;
+    margin: 0;
+    padding: 0;
+}
+
+.pdf {
+    text-align: center;
+
+}
+
+img {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  text-align: center;
+  
+}
+
+.container {
+    display: flex;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.column {
+ flex: 1;   
+}
